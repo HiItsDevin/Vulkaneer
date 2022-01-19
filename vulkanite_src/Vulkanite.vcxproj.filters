@@ -15,16 +15,22 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\vulkanite_window.hpp">
+    <ClCompile Include="src\vulkanite_app.cpp">
       <Filter>Source Files</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
+    </ClCompile>
+    <ClCompile Include="src\vulkanite_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="src\vulkanite_window.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\App.cpp">
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\vulkanite_app.hpp">
       <Filter>Source Files</Filter>
-    </ClCompile>
+    </ClInclude>
+    <ClInclude Include="src\vulkanite_window.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
