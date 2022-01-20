@@ -19,6 +19,8 @@ namespace vulkanite {
         VulkaniteWindow &operator=(const VulkaniteWindow &) = delete;
 
         bool shouldClose() { return glfwWindowShouldClose(window);}
+
+        void createWindowSurface(VkInstance instance, VkSurfaceKHR *surface);
     private:
         void initWindow();
         const int width;

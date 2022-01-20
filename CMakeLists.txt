@@ -16,8 +16,11 @@ add_executable(vulkanite
         vulkanite_src/src/vulkanite_window.cpp
         vulkanite_src/src/vulkanite_window.hpp
 
-        vulkanite_src/src/vulkanite_pipeline.hpp
         vulkanite_src/src/vulkanite_pipeline.cpp
+        vulkanite_src/src/vulkanite_pipeline.hpp
+
+        vulkanite_src/src/vulkanite_device.cpp
+        vulkanite_src/src/vulkanite_device.hpp
 
         vulkanite_src/src/vulkanite_main.cpp)
 
