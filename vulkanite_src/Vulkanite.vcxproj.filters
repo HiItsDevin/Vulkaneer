@@ -24,12 +24,24 @@
     <ClCompile Include="src\vulkanite_window.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\vulkanite_device.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vulkanite_pipeline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\vulkanite_app.hpp">
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="src\vulkanite_window.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vulkanite_device.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\vulkanite_pipeline.hpp">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>

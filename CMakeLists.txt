@@ -27,5 +27,4 @@ add_executable(vulkanite
 target_link_libraries(vulkanite PRIVATE
 Vulkan::Vulkan
 GLFW::GLFW
-glm::glm
-)
+glm::glm)
