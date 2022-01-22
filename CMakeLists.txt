@@ -10,19 +10,19 @@ find_package(GLFW REQUIRED)
 find_package(glm REQUIRED)
 
 add_executable(vulkanite
-        vulkanite_src/src/vulkanite_app.cpp
-        vulkanite_src/src/vulkanite_app.hpp
+        src/vulkanite_app.cpp
+        src/vulkanite_app.hpp
 
-        vulkanite_src/src/vulkanite_window.cpp
-        vulkanite_src/src/vulkanite_window.hpp
+        src/vulkanite_window.cpp
+        src/vulkanite_window.hpp
 
-        vulkanite_src/src/vulkanite_pipeline.cpp
-        vulkanite_src/src/vulkanite_pipeline.hpp
+        src/vulkanite_pipeline.cpp
+        src/vulkanite_pipeline.hpp
 
-        vulkanite_src/src/vulkanite_device.cpp
-        vulkanite_src/src/vulkanite_device.hpp
+        src/vulkanite_device.cpp
+        src/vulkanite_device.hpp
 
-        vulkanite_src/src/vulkanite_main.cpp)
+        src/vulkanite_main.cpp)
 
 target_link_libraries(vulkanite PRIVATE
 Vulkan::Vulkan
