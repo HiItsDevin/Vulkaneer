@@ -5,7 +5,7 @@
       "generator": "Ninja",
       "configurationType": "Debug",
       "inheritEnvironments": [ "clang_cl_x64" ],
-      "buildRoot": "${projectDir}\\out\\build\\${name}",
+      "buildRoot": "${projectDir}\\build\\${name}",
       "installRoot": "${projectDir}\\out\\install\\${name}",
       "cmakeCommandArgs": "",
       "buildCommandArgs": "",
@@ -20,6 +20,11 @@
         {
           "name": "glfw3_DIR",
           "value": "C:/vcpkg/packages/glfw3_x64-windows/share/glfw3",
+          "type": "PATH"
+        },
+        {
+          "name": "glm_DIR",
+          "value": "C:/vcpkg/installed/x64-windows/share/glm",
           "type": "PATH"
         }
       ]

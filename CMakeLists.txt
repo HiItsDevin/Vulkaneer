@@ -9,20 +9,8 @@ find_package(Vulkan REQUIRED)
 find_package(glfw3 CONFIG REQUIRED)
 find_package(glm CONFIG REQUIRED)
 
-add_executable(vulkanite
-        
-
-        
-        
-
-        
-        
-
-        
-        
-
-        
-        )
+add_executable(vulkanite 
+        src/vulkanite_main.cpp)
 
 target_link_libraries(vulkanite PRIVATE
         Vulkan::Vulkan
