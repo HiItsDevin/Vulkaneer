@@ -563,3 +563,6 @@ FodyWeavers.xsd
 
 # Vulkanite Binaries
 build/
+
+# linux build
+vulkanite
