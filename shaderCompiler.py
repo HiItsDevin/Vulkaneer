@@ -8,11 +8,11 @@ def compileShaders(glslangValidatorPath = None):
         print("Shaders found:")
         for shader in os.listdir("src\\shaders\\"):
             if shader.endswith(".vert") or shader.endswith(".frag"):
-                os.system(f"{glslangValidatorPath} -V -o ./src\\shaders\\" + shader[:-5] + ".spv ./src\\shaders\\" + shader)
+                os.system(f"{glslangValidatorPath} -V -Os -o ./src\\shaders\\" + shader[:-5] + ".spv ./src\\shaders\\" + shader)
     else:
         print("Shaders not found, make sure this script is in the root of the project, or that {project_root}\\src\\shaders\\ or {project_root}\\shaders\\ exists.")
 
-if "VULKAN_sSDK" in os.environ or "VK_sSDK_PATH" in os.environ or os.path.exists("/usr/bin/glslangValidator"):
+if "VULKAN_SDK" in os.environ or "VK_SDK_PATH" in os.environ or os.path.exists("/usr/bin/glslangValidator"):
     print("Vulkan SDK found")
     compileShaders()
 else:
