@@ -8,7 +8,7 @@ def compileShaders(glslangValidatorPath = None):
         print("Shaders found:")
         for shader in os.listdir("src\\shaders\\"):
             if shader.endswith(".vert") or shader.endswith(".frag"):
-                os.system(f"{glslangValidatorPath} -V -Os -o ./src\\shaders\\" + shader[:-5] + ".spv ./src\\shaders\\" + shader)
+                os.system(f"{glslangValidatorPath} -V -Os -o ./src\\shaders\\" + shader + ".spv ./src\\shaders\\" + shader)
     else:
         print("Shaders not found, make sure this script is in the root of the project, or that {project_root}\\src\\shaders\\ or {project_root}\\shaders\\ exists.")
 
