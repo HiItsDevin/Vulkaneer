@@ -4,6 +4,7 @@
 #include <GLFW/glfw3.h>
 
 #include <iostream>
+#include <string>
 
 namespace vulkanite
 {
@@ -12,6 +13,10 @@ namespace vulkanite
 	public:
 		VulkaniteWindow(int w, int h, std::string name);
 		~VulkaniteWindow();
+
+		bool shouldClose() {
+			return glfwWindowShouldClose(window);
+		}
 	private:
 		void initWindow();
 

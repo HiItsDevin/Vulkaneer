@@ -13,7 +13,13 @@ find_package(glfw3 REQUIRED)
 find_package(glm CONFIG REQUIRED)
 
 add_executable(vulkanite 
-        "src/vulkanite_main.cpp" "src/vulkanite_window.hpp" "src/vulkanite_window.cpp" "src/vulkanite_app.hpp")
+        "src/vulkanite_main.cpp" 
+        
+        "src/vulkanite_window.hpp" 
+        "src/vulkanite_window.cpp" 
+        
+        "src/vulkanite_app.hpp" 
+        "src/vulkanite_app.cpp")
 
 target_link_libraries(vulkanite PRIVATE
         Vulkan::Vulkan
