@@ -14,6 +14,9 @@ namespace vulkanite
 		VulkaniteWindow(int w, int h, std::string name);
 		~VulkaniteWindow();
 
+		VulkaniteWindow(const VulkaniteWindow&) = delete;
+		VulkaniteWindow& operator=(const VulkaniteWindow&) = delete;
+
 		bool shouldClose() {
 			return glfwWindowShouldClose(window);
 		}
