@@ -1,6 +1,7 @@
 #pragma once
 
 #include "vulkanite_window.hpp"
+#include "vulkanite_pipeline.hpp"
 
 namespace vulkanite {
 	class VulkaniteApp {
@@ -11,5 +12,6 @@ namespace vulkanite {
 		void run();
 	private:
 		VulkaniteWindow vulkaniteWindow{ WIDTH, HEIGHT, "Vulkanite" };
+		VulkanitePipeline vulkanitePipeline{ "shaders/simple_shader.vert.spv", "shaders/simple_shader.frag.spv" };
 	};
 }
