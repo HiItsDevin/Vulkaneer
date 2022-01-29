@@ -23,7 +23,10 @@ add_executable(vulkanite
         "src/vulkanite_app.cpp" 
         
         "src/vulkanite_pipeline.hpp" 
-        "src/vulkanite_pipeline.cpp")
+        "src/vulkanite_pipeline.cpp"
+        
+        "src/vulkanite_device.hpp"
+        "src/vulkanite_device.cpp")
 
 target_link_libraries(vulkanite PRIVATE
         Vulkan::Vulkan
