@@ -7,7 +7,9 @@
 
 namespace vulkanite {
 
-	struct PipelineConfigInfo {};
+	struct PipelineConfigInfo {
+		VkPipelineInputAssemblyStateCreateInfo inputAssemblyInfo;
+	};
 	class VulkanitePipeline {
 	public:
 		VulkanitePipeline(
