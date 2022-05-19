@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Vulkanite.iml" filepath="$PROJECT_DIR$/.idea/Vulkanite.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/vulkanite.iml" filepath="$PROJECT_DIR$/.idea/vulkanite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/vulkanite2.iml" filepath="$PROJECT_DIR$/.idea/vulkanite2.iml" />
     </modules>
   </component>
 </project>

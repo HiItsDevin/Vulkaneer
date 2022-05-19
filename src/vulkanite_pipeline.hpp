@@ -29,7 +29,7 @@ namespace vulkanite {
 			const std::string& vertFilepath, 
 			const std::string& fragFilepath, 
 			const PipelineConfigInfo& configInfo);
-		~VulkanitePipeline() {}
+		~VulkanitePipeline();
 
 		VulkanitePipeline(const VulkanitePipeline&) = delete;
 		void operator=(const VulkanitePipeline&) = delete;
