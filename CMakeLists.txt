@@ -26,7 +26,10 @@ add_executable(vulkanite
         "src/vulkanite_pipeline.cpp"
         
         "src/vulkanite_device.hpp"
-        "src/vulkanite_device.cpp")
+        "src/vulkanite_device.cpp"
+
+        "src/vulkanite_swap_chain.hpp"
+        "src/vulkanite_swap_chain.cpp")
 
 target_link_libraries(vulkanite PRIVATE
         Vulkan::Vulkan
